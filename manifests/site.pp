@@ -1,2 +1,2 @@
-hiera_include('git', 'ntp', 'stdlib')
+hiera_include('git','ntp','stdlib')
 
