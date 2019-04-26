@@ -5,4 +5,14 @@ classes:
 ntp::servers:
    - 0.us.pool.ntp.org
    - 1.us.pool.ntp.org
+   - 3.us.pool.ntp.org
+   - 4.us.pool.ntp.org
+   - 5.us.pool.ntp.org
+   - 6.us.pool.ntp.org
+   - 7.us.pool.ntp.org
+   - 8.us.pool.ntp.org
+   - 9.us.pool.ntp.org
+
+foo: bar
+test: hello world
 
