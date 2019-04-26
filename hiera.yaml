@@ -1,17 +1,17 @@
 ---
 version: 5
 
+hierarchy:
+   - name: "Per-Node data"
+     path: '/nodes/%{trusted.certname}.yaml'
+   - name: "Hieradata"
+     path: "/hieradata/common.yaml"
+   - name: "Common data"
+     path: "common.yaml"
+
 #Used for any hierarchy level that omits keys.
 defaults:   
    #This path is relative to the environment
    datadir: '/etc/puppetlabs/code/environments/%{environment}/hieradata'   
    data_hash: yaml_data	#Use the built-in YAML backend
-hierarchy:
-   - name: "Per-Node data"
-     path: '/nodes/%{trusted.certname}.yaml'
-  
-   - name: "Hieradata"
-     path: "/hieradata/common.yaml"
-  
-   - name: Common data
-     path: "common.yaml"
+
