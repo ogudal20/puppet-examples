@@ -13,6 +13,6 @@ ntp::servers:
    - 8.us.pool.ntp.org
    - 9.us.pool.ntp.org
 
-foo: bar
-test: hello world
+foo: "bar"
+test: "hello world"
 
