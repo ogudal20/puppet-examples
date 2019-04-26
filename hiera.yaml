@@ -5,11 +5,11 @@ version: 5
 defaults:   
    #This path is relative to the environment
    datadir: '/etc/puppetlabs/code/environments/%{environment}/hieradata'   
-   datahash: yaml_data	#Use the built-in YAML backend
+   data_hash: yaml_data	#Use the built-in YAML backend
 hierarchy:
    - name: "Per-Node data"
-   - path: '/nodes/%{trusted.certname}.yaml'
+     path: '/nodes/%{trusted.certname}.yaml'
    - name: "Hieradata"
-   - path: "/hieradata/common.yaml"
+     path: "/hieradata/common.yaml"
    - name: Common data
-   - path: "common.yaml"
+     path: "common.yaml"
