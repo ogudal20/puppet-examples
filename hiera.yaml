@@ -1,8 +1,10 @@
 ---
 version: 5
 
-defaults:	#Used for any hierarchy level that omits keys.
-   datadir: '/etc/puppetlabs/code/environments/%{environment}/hieradata' #This path is relative to the environment
+#Used for any hierarchy level that omits keys.
+defaults:   
+   #This path is relative to the environment
+   datadir: '/etc/puppetlabs/code/environments/%{environment}/hieradata'   
    datahash: yaml_data	#Use the built-in YAML backend
 
 hierarchy:
