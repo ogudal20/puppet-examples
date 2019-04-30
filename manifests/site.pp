@@ -1,2 +1,2 @@
-hiera_include('profile::base')
+hiera_include('classes')
 
