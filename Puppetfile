@@ -6,3 +6,4 @@ mod "puppetlabs/stdlib", '5.2.0'
 mod "puppetlabs/git"
 mod "puppet/r10k"
 mod "sensu-sensu", "3.1.0"
+mod "puppet-prometheus", "6.4.0"
