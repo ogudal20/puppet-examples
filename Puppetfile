@@ -8,3 +8,4 @@ mod "puppet/r10k"
 mod "sensu-sensu", "3.1.0"
 mod "puppet-prometheus", "6.4.0"
 mod 'dwerder-graphite', '7.3.0'
+mod 'pcfens-filebeat', '3.4.0'
