@@ -10,3 +10,4 @@ mod "puppet/r10k"
 #mod 'pcfens-filebeat', '3.4.0'
 mod 'prometheus',
    :git => 'https://github.com/ogudal20/prometheus-puppet'
+mod 'puppet-archive', '3.2.1'
