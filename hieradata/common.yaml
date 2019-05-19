@@ -15,7 +15,7 @@ ntp::servers:
    - 9.us.pool.ntp.org
 
 # Prometheus Monitoring
-#prometheus::manage_prometheus_server: true
+prometheus::manage_prometheus_server: true
 
      #prometheus::version: '2.0.0'
      #prometheus::scrape_configs:
