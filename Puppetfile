@@ -11,3 +11,4 @@ mod "puppet/r10k"
 mod 'prometheus',
    :git => 'https://github.com/ogudal20/prometheus-puppet'
 mod 'puppet-archive', '3.2.1'
+mod 'camptocamp-systemd', '2.4.0'
