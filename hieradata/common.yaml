@@ -1,6 +1,7 @@
 ---
 classes:
    - 'profile::base'
+   - 'prometheus'
 
 ntp::servers:
    - 0.us.pool.ntp.org
@@ -13,6 +14,10 @@ ntp::servers:
    - 8.us.pool.ntp.org
    - 9.us.pool.ntp.org
 
-foo: "bar"
-test: "hello world"
-
+prometheus::version: '2.0.0'
+prometheus::scrape_configs:
+    - job_name: 'prometheus'
+      scrape_interval: '10s'
+      static_configs:
+        - targets:
+            - localhost:9090
